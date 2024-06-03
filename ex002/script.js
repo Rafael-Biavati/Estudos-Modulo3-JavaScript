@@ -10,4 +10,3 @@ function minhaF() {
 
 const funcao = () => "teste arrow function";
 console.log(funcao());
-
