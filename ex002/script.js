@@ -7,6 +7,5 @@
 function minhaF() {
     console.log("teste");
 }*/
-
 const funcao = () => "teste arrow function";
 console.log(funcao());
