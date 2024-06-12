@@ -134,6 +134,7 @@ body{width: 100%;}
     box-shadow: 20px 20px 30px #00000005;
     margin: 15px 0px;
     transition: 0.2s ease;
+    position: relative;
 }
 #produto1 .prod:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
@@ -169,4 +170,16 @@ body{width: 100%;}
 }
 #produto1 .prod .descricao p{
     margin: 0px;
+}
+#produto1 .prod .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178 ;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
 }
