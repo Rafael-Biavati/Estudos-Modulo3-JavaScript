@@ -124,6 +124,13 @@ body{width: 100%;}
     text-align: center;
 
 }
+#produto1 .container-produto{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
 #produto1 .prod{
     width: 23%;
     min-width: 250px;
