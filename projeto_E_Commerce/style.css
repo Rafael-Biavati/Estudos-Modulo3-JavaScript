@@ -12,6 +12,8 @@ h6{font-weight: 700;font-size: 12px;}
 p{font-size: 16px;color: #465b52;margin: 15px 0 20px 0;}
 .section-p1{padding: 40px 80px;}
 .section-m1{margin: 40px 0;}
+button.normal{font-size: 14px; font-weight:  600; padding: 15px 30px; color: black; background-color: white; border-radius: 4px; cursor: pointer; border: none; outline: none; transition: 0.2s;}
+
 body{width: 100%;}
 
 
@@ -189,4 +191,29 @@ body{width: 100%;}
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/banner/b2.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: white;
+    font-size: 16px;
+}
+#banner h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+#banner button:hover{
+    background-color: #088178 ;
+    color: white;
 }
