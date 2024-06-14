@@ -208,3 +208,14 @@ body{width: 100%;}
 #banner h2{color: white;font-size: 30px;padding: 10px 0px;}
 #banner button:hover{background-color: #088178 ;color: white;}
 
+#promo-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/banner/b17.jpg);
+    height: 50vh;
+    min-width: 580px;
+    background-size: cover;
+    background-position: center;
+}
