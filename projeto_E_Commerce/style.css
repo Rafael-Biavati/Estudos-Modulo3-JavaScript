@@ -204,16 +204,7 @@ body{width: 100%;}
     background-size: cover;
     background-position: center;
 }
-#banner h4{
-    color: white;
-    font-size: 16px;
-}
-#banner h2{
-    color: white;
-    font-size: 30px;
-    padding: 10px 0px;
-}
-#banner button:hover{
-    background-color: #088178 ;
-    color: white;
-}
+#banner h4{color: white;font-size: 16px;}
+#banner h2{color: white;font-size: 30px;padding: 10px 0px;}
+#banner button:hover{background-color: #088178 ;color: white;}
+
