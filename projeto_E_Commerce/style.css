@@ -14,6 +14,18 @@ p{font-size: 16px;color: #465b52;margin: 15px 0 20px 0;}
 .section-m1{margin: 40px 0;}
 button.normal{font-size: 14px; font-weight:  600; padding: 15px 30px; color: black; background-color: white; border-radius: 4px; cursor: pointer; border: none; outline: none; transition: 0.2s;}
 
+button.branco{
+    font-size: 14px; 
+    font-weight:  600; 
+    padding: 11px 18px; 
+    color: white; 
+    background-color: transparent; 
+    cursor: pointer; 
+    border: 1px solid white; 
+    outline: none; 
+    transition: 0.2s;
+}
+
 body{width: 100%;}
 
 
@@ -65,6 +77,9 @@ body{width: 100%;}
     left: 20px;
 }
 
+
+
+/*hero area inicial com foto*/
 #hero{
     background-image: url(img/hero4.png);
     background-size: cover;
@@ -83,6 +98,10 @@ body{width: 100%;}
 #hero h1{padding-bottom: 15px; color: #088178;}
 #hero button{background-image: url(img/button.png); background-color: transparent; color: #088178; border: 0; padding: 14px 80px 14px 65px; background-repeat: no-repeat; cursor: pointer; font-weight: 700; font-size: 1em;}
 
+
+
+
+/*caixinhas de destaque*/
 #destaque{
     display: flex;
     align-items: center;
@@ -122,6 +141,10 @@ body{width: 100%;}
 #destaque .caixa-destaque:nth-child(5) h6{background-color:#f6dbf6 ;}
 #destaque .caixa-destaque:nth-child(6) h6{background-color:#fff2e5 ;}
 
+
+
+
+/*produtos*/
 #produto1{
     text-align: center;
 
@@ -193,6 +216,8 @@ body{width: 100%;}
     right: 10px;
 }
 
+
+/*Banner maior central*/
 #banner{
     display: flex;
     flex-direction: column;
@@ -208,14 +233,43 @@ body{width: 100%;}
 #banner h2{color: white;font-size: 30px;padding: 10px 0px;}
 #banner button:hover{background-color: #088178 ;color: white;}
 
+
+/*Banners promoção*/
+#promo-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 #promo-banner .banner-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-image: url(img/banner/b17.jpg);
-    height: 50vh;
+
+    height: 45vh;
+    max-height: 450px;
+    min-height: 300px;
+
+    width: 40vw;
     min-width: 580px;
     background-size: cover;
     background-position: center;
+    padding: 30px;
+}
+#promo-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+#promo-banner h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+#promo-banner span{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
 }
