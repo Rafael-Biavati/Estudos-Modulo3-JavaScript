@@ -501,6 +501,8 @@ footer .copyright{
     }
 
     /*newsletter*/
+
+    #newsletter{}
     #newsletter .form{
         width: 70%;
     }
