@@ -502,12 +502,6 @@ footer .copyright{
 
     /*newsletter*/
 
-    #newsletter{
-        color: black;
-        size: 2em;
-        text-decoration: underline;
-    }
-
     #newsletter .form{
         width: 70%;
     }
