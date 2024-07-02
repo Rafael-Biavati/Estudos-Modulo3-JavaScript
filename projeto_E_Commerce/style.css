@@ -560,3 +560,15 @@ footer .copyright{
         text-align: start;
     }
 }
+@media (max-width:477px){
+     /*newsletter*/
+     #newsletter{
+        padding: 40px 20px;
+     }
+     #newsletter .form{
+        width: 100%;
+    }
+    footer .copyright{
+        text-align: start;
+    }
+}
