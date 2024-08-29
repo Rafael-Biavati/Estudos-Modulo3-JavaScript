@@ -563,36 +563,7 @@ footer .copyright{
 
 
 @media (max-width:577px){
-     /*hero*/
-     #hero{
-        padding: 0 20px ;
-        background-position: 55%;
-    }
-    #destaque{
-        justify-content: space-between;
-    }
-    #destaque .caixa-destaque{
-        width: 155px;
-        margin: 0 0 15px 0;
-    }
-    #produto1 .prod{
-        width: 100%;
-    }
-    #banner{
-        height: 40vh;
-    }
-    #promo-banner .banner-box{
-        height: 40vh;
-    }
-    #promo-banner .banner-box2{
-        margin-top: 20px;
-    }
-    #banner3{
-        padding: 0 20px;
-    }
-    #banner3 .banner-box{
-        width: 100%;
-    }
+     
      /*newsletter*/
      #newsletter{
         padding: 40px 20px;
