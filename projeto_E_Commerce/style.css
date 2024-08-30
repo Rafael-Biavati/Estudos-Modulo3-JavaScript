@@ -562,19 +562,7 @@ footer .copyright{
 }
 
 
-@media (max-width:577px){
-     
-     /*newsletter*/
-     #newsletter{
-        padding: 40px 20px;
-     }
-     #newsletter .form{
-        width: 100%;
-    }
-    footer .copyright{
-        text-align: start;
-    }
-}
+
 
     
 
