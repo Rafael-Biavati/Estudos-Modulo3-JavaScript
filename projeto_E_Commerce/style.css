@@ -562,18 +562,7 @@ footer .copyright{
 }
 
 @media (max-width:677px){
-    .section-p1{
-        padding: 20px;
-    }
-    #header{
-        padding: 10px 30px;
-    }
-    h2{
-        font-size: 32px ;
-    }
-    h1{
-        font-size: 38px;
-    }
+    
      /*hero*/
      #hero{
         padding: 0 20px ;
