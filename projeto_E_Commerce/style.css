@@ -563,10 +563,7 @@ footer .copyright{
 
 @media (max-width:777px){
     
-     /*hero*/
-     #hero{
-        
-    }
+
     #destaque{
         justify-content: space-between;
     }
