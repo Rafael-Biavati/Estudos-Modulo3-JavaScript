@@ -563,17 +563,6 @@ footer .copyright{
 
 @media (max-width:777px){
     
-
-    #destaque{
-        justify-content: space-between;
-    }
-    #destaque .caixa-destaque{
-        width: 155px;
-        margin: 0 0 15px 0;
-    }
-    #produto1 .prod{
-        width: 100%;
-    }
     #banner{
         height: 40vh;
     }
