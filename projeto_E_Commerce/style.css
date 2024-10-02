@@ -563,12 +563,6 @@ footer .copyright{
 
 @media (max-width:777px){
     
-    #banner{
-        height: 40vh;
-    }
-    #promo-banner .banner-box{
-        height: 40vh;
-    }
     #promo-banner .banner-box2{
         margin-top: 20px;
     }
