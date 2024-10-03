@@ -562,16 +562,7 @@ footer .copyright{
 }
 
 @media (max-width:777px){
-    
-    #promo-banner .banner-box2{
-        margin-top: 20px;
-    }
-    #banner3{
-        padding: 0 20px;
-    }
-    #banner3 .banner-box{
-        width: 100%;
-    }
+
      /*newsletter*/
      #newsletter{
         padding: 40px 20px;
