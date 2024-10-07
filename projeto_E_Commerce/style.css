@@ -561,14 +561,6 @@ footer .copyright{
     }
 }
 
-@media (max-width:777px){
-
-     
-    footer .copyright{
-        text-align: start;
-    }
-}
-
 
 
 
