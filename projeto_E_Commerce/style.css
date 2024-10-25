@@ -593,7 +593,7 @@ footer .copyright{
 }
 
 
-@media (max-width:477px){
+@media (max-width:477px){ 
     .section-p1{
         padding: 20px;
     }
@@ -645,6 +645,19 @@ footer .copyright{
     }
     footer .copyright{
         text-align: start;
+    }
+
+    /*Produto Detalhado*/
+    #prodetalhe{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetalhe .imagem-unica-prod{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetalhe .prodescricao{
+        width: 100%;
     }
 }
 
