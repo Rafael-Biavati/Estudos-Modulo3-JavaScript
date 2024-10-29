@@ -522,6 +522,24 @@ footer .copyright{
     
 }
 
+#artigo{
+    padding: 150px 150px 0 150px;
+}
+#artigo .caixa-artigo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#artigo .img-artigo{
+    width: 50%;
+    margin-right: 40px;
+}
+#artigo img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 
 /*Media queries*/
 @media (max-width:799px){
