@@ -718,6 +718,23 @@ footer .copyright{
     #prodetalhe .prodescricao{
         width: 100%;
     }
+    #artigo{
+        padding: 100px 20px 0 20px;
+    }
+     /*Pagina Artigos*/
+     #artigo .caixa-artigo{
+        display: flex;
+        flex-direction:column ;
+        align-items: flex-start;
+     }
+     #artigo .img-artigo{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+     }
+     #artigo .detalhes-artigo{
+        width: 100%;
+     }
 }
 
 
